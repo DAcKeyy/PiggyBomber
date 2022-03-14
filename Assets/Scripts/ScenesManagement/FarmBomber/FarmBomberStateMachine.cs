@@ -13,7 +13,7 @@ namespace ScenesManagement.FarmBomber
 
         private void Start()
         {
-            if(SceneState == null) SetState(new PreGameState(this));
+            if(SceneState == null) SetState(new PreGameState(this, PlayerInputAction));
         }
     }
 }
