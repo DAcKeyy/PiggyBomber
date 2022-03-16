@@ -4,7 +4,7 @@ namespace ScenesManagement.FarmBomber.States
 {
     public class GamePauseState: SceneState
     {
-        public GamePauseState(SceneStateMachine stateMachineMachine) : base(stateMachineMachine)
+        public GamePauseState(FarmBomberStateMachine stateMachineMachine) : base(stateMachineMachine)
         {
         }
     }
